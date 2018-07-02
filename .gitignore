@@ -1,0 +1,9 @@
+# ignore all generated Pipfile, Pipfile.<env> Pipfile.lock
+Pipfile*
+
+# allow Pipfile.lock.<env> and the Pipfile template
+!Pipfile.tmpl
+!Pipfile.lock.*
+
+#ignore any binary packages on Windows
+*.whl
