@@ -1,0 +1,39 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+dask = "*"
+distributed = "*"
+dm-sonnet = "*"
+fastparquet = "*"
+pandas = "*"
+pyodbc = "*"
+scikit-learn = "*"
+seaborn = "*"
+sqlalchemy = "*"
+bokeh = "*"
+nbstripout = "*"
+openpyxl = "*"
+jsonobject = "*"
+
+numpy = {path = "numpy-1.14.3-cp36-cp36m-win_amd64.whl"}
+python-snappy = {path = "python-snappy-0.5.2-cp36-cp36m-win_amd64.whl"}
+scipy = {path = "scipy-1.1.0-cp36-cp36m-win_amd64.whl" }
+tensorflow = "==1.8.0"
+
+[dev-packages]
+
+pytest = "*"
+jupyter = "*"
+nbdime = "*"
+pytest-html = "*"
+partd = "*"
+
+
+[requires]
+
+python_version = "3.6.3"

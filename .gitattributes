@@ -1,0 +1,4 @@
+# stop linux scripts being checked out with CRLF line endings on Windows -
+# if these files get mounted and used inside a docker container they won't execute
+# properly with the wrong type of line endings
+*.sh -crlf
